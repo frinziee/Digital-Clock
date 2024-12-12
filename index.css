@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.container, .container1 {
+    border: none;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.time, .date, .day {
+    margin: 10px 0;
+}
+
+.time span, .date span, .day span {
+    color: #ffeb3b;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container1 div {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #1e3c72;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
